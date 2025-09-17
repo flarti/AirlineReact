@@ -1,0 +1,65 @@
+body, .app {
+  background-color: #f9fafb;
+  color: #232323;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Мінімалістичний короткий навбар (клас використовується у вашому Menu) */
+.short-navbar {
+  background-color: #fff !important;
+  box-shadow: 0 2px 12px rgba(30, 60, 42, 0.06);
+  border-bottom: 1px solid #e7ecee !important;
+}
+
+/* Спокійний темно-зелений акцент */
+.text-success {
+  color: #176648 !important;
+}
+
+/* Картка авіакомпанії */
+.airline-card {
+  background: #fff;
+  border: 1px solid #e7ecee;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.airline-card--selected {
+  border-color: #176648;
+  background: #f7fbf9;
+}
+
+.airline-card-title {
+  color: #176648;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.airline-card-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 7px;
+  margin: 0 auto;
+  background: #f4f6f8;
+  display: block;
+}
+
+/* Кнопка в картці */
+.airline-card-btn {
+  border-radius: 6px;
+  font-weight: 500;
+  border: none;
+}
+
+.airline-card-btn:not(.btn-success) {
+  border: 1px solid #176648;
+  color: #176648;
+  background: transparent;
+}
+
+.airline-card-btn:hover {
+  background: #145336;
+  color: #fff;
+}
