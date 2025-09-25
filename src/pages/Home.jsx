@@ -24,6 +24,10 @@ const Home = () => (
         </div>
       </div>
     </section>
+    <section className="p-4 p-md-5 rounded-3 border bg-white mb-4">
+      <h1 className="h3 mb-2 text-success">Stellar Corporation</h1>
+      <p className="text-muted mb-3">Will be soon.</p>
+    </section>
   </div>
 );
 
